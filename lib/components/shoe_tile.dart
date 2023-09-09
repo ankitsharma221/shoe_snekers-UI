@@ -9,20 +9,54 @@ class ShoeTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      height: 200,
+      width: 300,
       margin: EdgeInsets.only(left: 25),
-      width: 280,
       decoration: BoxDecoration(
-          color: Colors.grey[100], borderRadius: BorderRadius.circular(12)),
+        color: Colors.grey[100],
+        borderRadius: BorderRadius.circular(12),
+      ),
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           //shoe pic
-          Image.asset(shoe.imagePath)
-
-          //description
-
-          //price+ details
-
-          //button to add cart
+          ClipRRect(
+              borderRadius: BorderRadius.circular(12),
+              child: Image.asset(
+                shoe.imagePath,
+                height: 360,
+              )),
+          Text(shoe.description),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(shoe.name,
+                      style:
+                          TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Text(
+                    '\$${shoe.price}',
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.black,
+                  borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(12),
+                  ),
+                ),
+                padding: EdgeInsets.all(20),
+                child: Icon(Icons.add, color: Colors.white),
+              ),
+            ],
+          ),
         ],
       ),
     );
