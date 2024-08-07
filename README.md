@@ -1,16 +1,11 @@
 # sneaker_shop
 
-A new Flutter project.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d8cf17b4-609c-4a29-9cf3-b6d07493941d" alt="Screenshot 1" width="150"/>
+  <img src="https://github.com/user-attachments/assets/6dfd89b2-dc44-4efb-bfcb-4310ab2e1898" alt="Screenshot 2" width="150"/>
+  <img src="https://github.com/user-attachments/assets/5cdd051c-318a-48c0-af44-6eea1040d365" alt="Screenshot 3" width="150"/>
+  <img src="https://github.com/user-attachments/assets/b3eaf18c-a9f5-43b5-a0de-f7d5031bf482" alt="Screenshot 4" width="150"/>
+</p>
+<p align="center">
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+</p>
